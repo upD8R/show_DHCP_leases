@@ -1,12 +1,12 @@
 
 # Summary
 
-This short shell script read the dhcp.leases file and delivers its output in a human readable manner aka table view.
-dhcp.leases is created by [Dnsmasq](https://thekelleys.org.uk/dnsmasq/doc.html), a combined DNS and DHCP server. In casem you configure it to act as DHCP in your network, it creates the file dhcp.leases to store the active DHCP leases.
+This short shell script reads the **dhcp.leases** file and delivers its output in a human readable manner aka table view.
+dhcp.leases is created by [Dnsmasq](https://thekelleys.org.uk/dnsmasq/doc.html), a combined DNS and DHCP server. In case you configure it to act as DHCP in your network, it creates the file dhcp.leases to store the active DHCP leases.
 
-PiHole is also using a modified Dnsmasq version in its core, so this script can also be usedi here if you need sneak peek on your leases on your console. Actually the path being used in the script refers to my PiHiole installation and you need to change it according to your environemnt.
+[Pi-hole](https://pi-hole.net) is also using a modified Dnsmasq version in its core, so this script can also be used here if you need a sneak peek on your DHCP leases on your console. Actually, the path being used in the script refers to my PiHiole installation and you need to change it according to your environment.
 
-Don't forget to make teh script executable.
+Don't forget to make the script executable.
 
 	chmod +x show_DHCP_lease.sh
 
