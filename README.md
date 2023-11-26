@@ -8,11 +8,11 @@ PiHole is also using a modified Dnsmasq version in its core, so this script can 
 
 Don't forget to make teh script executable.
 
-	chmod +x show_DHCP_leases.sh
+	chmod +x show_DHCP_lease.sh
 
 ## Example output
 
-	pi@pihole ~> ./show_DHCP_leases.sh
+	pi@pihole ~> ./show_DHCP_lease.sh
 
 	2023-11-27 09:50:40 | 04:b4:xx:44:c4:fd | 192.168.66.117 | TabletSamsungTabA10
 	2023-11-27 10:13:59 | 3c:2a:uu:e7:80:8a | 192.168.66.44  | drucker
